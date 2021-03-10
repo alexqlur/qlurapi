@@ -1,0 +1,16 @@
+{
+  "collectionName": "notes",
+  "info": {
+    "name": "note",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
