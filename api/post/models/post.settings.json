@@ -20,17 +20,6 @@
     "excerpt": {
       "type": "text"
     },
-    "coverImage": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "date": {
       "type": "date"
     },
@@ -47,10 +36,6 @@
     },
     "author": {
       "model": "author"
-    },
-    "Dynamic": {
-      "type": "dynamiczone",
-      "components": []
     }
   }
 }
